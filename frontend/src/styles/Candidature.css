@@ -1,0 +1,57 @@
+.candidature-modal {
+  position: absolute;
+  top: 25vh;
+  left: 30vw;
+  right: 30vw;
+  bottom: 45vh;
+  background-color: transparent;
+}
+
+.candidature-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.candidature-modal .title {
+  background-color: var(--purple-light);
+  height: 8vh;
+  border-radius: 50px 50px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+}
+
+.candidature-modal .content {
+  background-color: var(--white);
+  height: 20vh;
+  padding: 1.5vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 0px 20px 20px;
+  color: var(--purple-dark);
+  gap: 3vw;
+}
+
+.candidature-modal .button {
+  font-size: 0.9rem;
+  color: white;
+  background: #ff5400;
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 40px;
+  -webkit-box-shadow: -2px 3px 4px 0px rgb(184 197 235);
+  box-shadow: -2px 3px 4px 0px rgb(184 197 235);
+  border: unset;
+  cursor: pointer;
+}

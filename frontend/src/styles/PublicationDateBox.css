@@ -1,0 +1,41 @@
+.publication_date_box {
+  width: 30vw;
+}
+
+.date_titleblock_section {
+  background-color: var(--purple-light);
+  height: 8vh;
+  border-radius: 50px 50px 0 0;
+  display: flex;
+  width: 20vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 3px 3px rgba(184, 197, 235, 0.5);
+}
+
+.date_title {
+  color: var(--white);
+  font-weight: lighter;
+}
+
+.date_body {
+  background-color: var(--white);
+  display: flex;
+  width: 40vw;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 3px 3px rgba(184, 197, 235, 0.5);
+  color: var(--purple-dark);
+}
+
+.input_date {
+  width: 2vw;
+  margin-top: 2vh;
+}
+
+.date_body label {
+  font-size: 2.2vh;
+  /* margin-left: 1vw; */
+}

@@ -1,0 +1,12 @@
+.radio-button-container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.radio-button-label {
+  font-size: 1.8vh;
+  color: var(--purple-light);
+  width: 5.4vw;
+  margin-left: 0.5vw;
+}

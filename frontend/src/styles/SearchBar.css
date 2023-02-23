@@ -1,0 +1,44 @@
+.searchBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 20px;
+  justify-content: space-around;
+  border: solid 2px var(--bleu);
+  background-color: var(--bleu);
+  border-radius: 6vw;
+  padding: 7px;
+  width: auto;
+  margin-bottom: 5vh;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 255, 0.2);
+}
+
+.logo {
+  height: 6vh;
+  padding-right: 1vh;
+}
+
+.inputBox2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.inputBox select {
+  width: 23vw;
+  height: 5vh;
+  margin: 1vh 1vw;
+  background: var(--white);
+  border-radius: 30vw;
+  color: var(--black);
+  font-size: 2vh;
+  border: none;
+  height: 5vh;
+}
+
+.searchButton {
+  font-size: 5vh;
+  padding-top: 1vh;
+  padding-left: 1vh;
+  color: var(--white);
+}

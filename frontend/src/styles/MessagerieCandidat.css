@@ -1,0 +1,11 @@
+.messagerie-candidat .box {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  width: 75vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.messagerie-candidat .box .box_candidate {
+  padding: 4vh 6vw;
+}

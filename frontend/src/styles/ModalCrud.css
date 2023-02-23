@@ -1,0 +1,159 @@
+.modalCrudBox {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: O;
+  bottom: 0;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modalCrudContent {
+  position: relative;
+  top: 0.5vw;
+  bottom: 2vw;
+  left: 0.1vw;
+  right: 2vw;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85vw;
+  height: 85%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2vw;
+  border-radius: 5vw;
+  padding-bottom: 0;
+  animation: 1s rotateOnOpen;
+}
+
+.smallModalCrudContent {
+  position: relative;
+  top: 0.5vw;
+  bottom: 2vw;
+  left: 0.1vw;
+  right: 2vw;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60vw;
+  height: 20%;
+  border-radius: 5vw;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2vw;
+  padding-bottom: 0;
+  animation: 1s rotateOnOpen;
+}
+
+@keyframes rotateOnOpen {
+  0% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+.modalCrud-header {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1vw;
+  margin-bottom: 2vw;
+}
+
+.header-img {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1.5vw;
+}
+
+.header-button {
+  width: 4%;
+  cursor: pointer;
+  padding: 0.5vw;
+  border-radius: 30%;
+}
+.header-button:hover {
+  transform: scale(1.5);
+}
+
+.modalCrud-body {
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.modalCrud-body::-webkit-scrollbar {
+  display: none;
+}
+
+.modalCrud-footer {
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.postule-button {
+  border-radius: 25px;
+  border: none;
+  box-shadow: 3px 3px rgb(147 169 235 / 50%);
+  padding: 0.5rem;
+  width: 13vw;
+  background-color: var(--white);
+  color: var(--purple-dark);
+  cursor: pointer;
+  margin-top: 2vw;
+  margin-bottom: 2vh;
+}
+.postule-button:hover {
+  box-shadow: 4px 4px 2px 1px var(--orange);
+  transform: scale(1.1);
+}
+.modalCrud-title {
+  margin-bottom: 1vw;
+  font-weight: bold;
+
+  color: var(--purple-dark);
+  text-align: left;
+  border-bottom: 0;
+}
+
+.modalCrud-subtitle {
+  font-weight: bold;
+  color: var(--purple-light);
+  margin-bottom: 2vw;
+}
+
+.modalCrud-input {
+  font-weight: bold;
+  color: var(--purple-dark);
+  margin-bottom: 2vw;
+  width: 100%;
+  border: none;
+  text-align: justify;
+  height: auto;
+}
+
+.modalCrud-text {
+  color: var(--purple-dark);
+  margin-bottom: 3vw;
+  text-align: justify;
+}
+.modalCrud-text-uppercase {
+  color: var(--purple-dark);
+  margin-bottom: 3vw;
+  text-align: justify;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.send-candidature {
+  color: red;
+}

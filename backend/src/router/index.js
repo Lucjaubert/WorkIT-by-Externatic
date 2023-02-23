@@ -1,0 +1,37 @@
+const express = require("express");
+
+const router = express.Router();
+const adminRouter = require("./adminRouter");
+const userRouter = require("./userRouter");
+const roleRouter = require("./roleRouter");
+const firmRouter = require("./firmRouter");
+const contractRouter = require("./contractRouter");
+const jobRouter = require("./jobRouter");
+const offerRouter = require("./offerRouter");
+const consultantRouter = require("./consultantRouter");
+const experienceRouter = require("./experienceRouter");
+const urgencyRouter = require("./urgencyRouter");
+const stateOfferRouter = require("./stateOfferRouter");
+const userOfferRouter = require("./userOfferRouter");
+const favoriteRouter = require("./favoriteRouter");
+const candidatedRouter = require("./candidatedRouter");
+const userAlertRouter = require("./userAlertRouter");
+const alertRouter = require("./alertRouter");
+
+router.use("/admin", adminRouter);
+router.use("/firm", firmRouter);
+router.use("/contract", contractRouter);
+router.use("/user", userRouter);
+router.use("/role", roleRouter);
+router.use("/consultant", consultantRouter);
+router.use("/experience", experienceRouter);
+router.use("/job", jobRouter);
+router.use("/offer", offerRouter);
+router.use("/userOffer", userOfferRouter);
+router.use("/urgence", urgencyRouter);
+router.use("/state_offer", stateOfferRouter);
+router.use("/favorite", favoriteRouter);
+router.use("/candidated", candidatedRouter);
+router.use("/userAlert", userAlertRouter);
+router.use("/alert", alertRouter);
+module.exports = router;

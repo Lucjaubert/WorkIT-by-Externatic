@@ -1,0 +1,23 @@
+.hello_button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: auto;
+  padding: 2vh 2vw;
+  color: var(--white);
+  background: var(--bleu);
+  border-radius: 30px;
+  box-shadow: 4px 4px 2px 1px rgba(0, 0, 255, 0.2);
+  margin-right: 2vw;
+}
+
+.hello_button h1 {
+  margin-right: 2vw;
+  color: var(--white);
+}
+.logout_logo {
+  height: 4vh;
+}
+.logout_logo:hover {
+  transform: scale(1.1);
+}

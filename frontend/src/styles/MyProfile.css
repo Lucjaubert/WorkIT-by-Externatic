@@ -1,0 +1,149 @@
+.my_profile {
+  margin: 10vh 10vh 10vh 0;
+  width: 55vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.my_profile_title {
+  color: var(--white);
+  background-color: var(--purple-light);
+  box-shadow: 3px 3px rgba(184, 197, 235, 0.5);
+  height: 12vh;
+  border-radius: 50px 50px 0 0;
+}
+.my_profile_title h3 {
+  color: var(--white);
+  padding: 5vh 6vh;
+}
+.my_profile_body {
+  padding: 7vh 3vw 4vh 7vw;
+  height: auto;
+  background-color: #fffdfe;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 3px 3px rgba(184, 197, 235, 0.5);
+}
+.my_profile_body h3 {
+  color: var(--purple-dark);
+  margin-bottom: 2vh;
+}
+.my_profile_informations_personnelles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.8vw;
+  margin-top: 3vh;
+  width: 60%;
+}
+.my_profile_input_block {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+.my_profile_input_block label,
+.my_profile_label {
+  color: var(--purple-light);
+  font-size: 1.2vw;
+}
+.my_profile_small_input {
+  width: 15vw;
+  background-color: var(--white);
+  height: 4.5vh;
+  outline: none;
+  border: var(--purple-dark) 1px solid;
+  padding: 1vh 0.5vw;
+  border-radius: 15px;
+  color: var(--purple-dark);
+}
+.my_profile_large_input {
+  width: 26vw;
+  outline: none;
+  border-bottom: var(--purple-dark) 1px solid;
+  padding: 1vh 0.5vw;
+  color: var(--purple-dark);
+}
+
+.my_profile_radio_buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.my_profile_drop_cv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.my_profile_drop_cv label {
+  width: 13vw;
+  height: 4.5vh;
+  font-size: 2vh;
+  color: var(--purple-dark);
+  cursor: pointer;
+  box-shadow: 4px 4px hsl(235deg 48% 57% / 50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  margin: 0 0 5vh 0;
+}
+.my_profile_drop_cv label:hover {
+  box-shadow: 4px 4px var(--orange);
+}
+.my_profile_drop_cv input {
+  display: none;
+}
+.my_profyle_fileName {
+  padding-top: 1.5vh;
+  color: var(--purple-dark);
+}
+
+.my_profile_current_situation {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2vw;
+  margin-top: 3vh;
+}
+
+.my_profile_current_situation_two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.8vw;
+  margin-top: 3vh;
+  width: 60%;
+}
+
+.my_profile_current_situation input,
+.my_profile_current_situation label {
+  margin-top: 2vh;
+}
+
+.my_profile_current_situation_two input,
+.my_profile_current_situation_two label {
+  margin-top: 2vh;
+}
+
+.my_profile_btn_enregistrer {
+  border-radius: 20px;
+  border: none;
+  box-shadow: 3px 3px rgb(147 169 235 / 50%);
+  padding: 0.5rem;
+  width: 15vw;
+  background-color: var(--purple-light);
+  color: var(--white);
+  cursor: pointer;
+  margin-right: 2vw;
+  margin-top: 5vh;
+}
+.my_profile_btn_enregistrer:hover {
+  box-shadow: 4px 4px 2px 1px var(--orange);
+  transform: scale(1.1);
+}
+
+.my_profile_actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}

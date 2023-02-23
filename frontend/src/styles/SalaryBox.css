@@ -1,0 +1,50 @@
+.salary_box {
+  width: 20vw;
+  margin-bottom: 5vh;
+}
+.salary_titleblock {
+  background-color: var(--purple-light);
+  height: 8vh;
+  border-radius: 50px 50px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 3px 3px rgba(184, 197, 235, 0.5);
+}
+
+h3.salary_title {
+  color: var(--white);
+  font-weight: lighter;
+}
+
+.salary_body {
+  background-color: var(--white);
+  padding: 3vh 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 0px 20px 20px;
+  box-shadow: 3px 3px rgba(184, 197, 235, 0.5);
+}
+
+.salary_body h3 {
+  margin: 2vh 0;
+}
+
+.minimal_salary {
+  color: var(--purple-dark);
+  font-weight: normal;
+  font-size: 2.2vh;
+}
+.slider {
+  width: 60%;
+  margin: 1vh 0 0 0;
+}
+
+.amount_salary {
+  color: var(--purple-dark);
+  font-weight: bold;
+  font-size: 2.2vh;
+}

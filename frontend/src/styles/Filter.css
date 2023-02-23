@@ -1,0 +1,35 @@
+.Filter_box {
+  margin: 0vh 4vw 0vh 4vw;
+  width: 20vw;
+}
+
+.titleblock_box {
+  background-color: var(--purple-light);
+  height: 8vh;
+  border-radius: 50px 50px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 3px 3px rgba(184, 197, 235, 0.5);
+}
+
+.title_box {
+  color: var(--white);
+  font-weight: 400;
+}
+
+.body_box {
+  background-color: var(--white);
+  height: 32vh;
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 3px 3px rgba(184, 197, 235, 0.5);
+}
+
+.input_box {
+  margin-top: 1.5vh;
+}

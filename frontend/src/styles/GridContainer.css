@@ -1,0 +1,98 @@
+.container-body .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.container-body .container .filter-box {
+  display: flex;
+  width: 20vw;
+}
+
+.box_grid_consultant h2 {
+  background-color: var(--purple-light);
+  color: var(--white);
+  box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, 0.2);
+  border-radius: 50px 50px 0 0;
+  padding: 4vh 2vw 2vh 2vw;
+  height: 8vh;
+  width: 15vw;
+}
+
+.filtre_candidature {
+  background-color: var(--white);
+  color: var(--purple-light);
+  height: 20vh;
+  width: 15vw;
+  margin-right: 2vw;
+
+  border-radius: 0 0 50px 50px;
+  box-shadow: 3px 3px rgba(184, 197, 235, 0.5);
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+}
+
+.container-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2vw;
+}
+
+.container-body .container .grid-container-box {
+  width: 70vw;
+}
+
+.grid-container-box-title h2 {
+  padding: 4vh 3vh;
+  border-radius: 50px 50px 0 0;
+  color: var(--white);
+  background: var(--purple-light);
+  box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, 0.2);
+}
+
+.grid-container .btn-container {
+  color: white;
+  background: #ff5400;
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 30px;
+  text-transform: uppercase;
+  -webkit-box-shadow: -2px 3px 4px 0px rgba(184, 197, 235, 1);
+  box-shadow: -2px 3px 4px 0px rgba(184, 197, 235, 1);
+  border: unset;
+  cursor: pointer;
+  margin-right: 1vw;
+}
+
+.grid-container {
+  padding: 4vh 1vw 2vh 1vw;
+  background-color: var(--white);
+  border-radius: 0 0 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  box-shadow: 6px 6px 2px 1px rgb(0 0 255 / 20%);
+  gap: 20px;
+}
+
+.grid-container .text_cross {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5vw;
+  margin-left: 4vw;
+  align-items: center;
+  color: #93a9eb;
+}
+
+.grid-container .btn-container {
+  font-size: 0.9em;
+}

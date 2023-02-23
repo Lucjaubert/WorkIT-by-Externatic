@@ -1,0 +1,172 @@
+.my_favorites_body {
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.my_favorites_offers_body {
+  padding: 4vh 2vw 2vh 2vw;
+  background-color: var(--white);
+  border-radius: 0 0 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 3px 3px rgba(184, 197, 235, 0.5);
+}
+
+.all_favorites_offers_titleblock {
+  color: var(--white);
+  background-color: var(--purple-light);
+  box-shadow: 3px 3px rgba(184, 197, 235, 0.5);
+  height: 12vh;
+  border-radius: 50px 50px 0 0;
+  display: flex;
+}
+
+.all_favorites_offers_titleblock h2 {
+  color: var(--white);
+  padding: 5vh 6vh;
+}
+
+.all_favorites_offers_button {
+  border-radius: 20px;
+  border: none;
+  box-shadow: 3px 3px rgb(147, 169, 235, 0.5);
+  padding: 0.5rem;
+  width: 15vw;
+  background-color: var(--white);
+  color: var(--purple-dark);
+  cursor: pointer;
+  margin-bottom: 2vh;
+}
+
+.all_favorites_offers_button:hover {
+  box-shadow: 4px 4px 2px 1px #ff8150;
+  transform: scale(1.1);
+}
+
+.job_alerts_body {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.job_alerts_created {
+  padding: 4vh 2vw 2vh 2vw;
+  background-color: var(--white);
+  border-radius: 0 0 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 3px 3px rgba(184, 197, 235, 0.5);
+}
+
+.job_alerts_titleblock {
+  color: var(--white);
+  background-color: var(--purple-light);
+  height: 12vh;
+  border-radius: 50px 50px 0 0;
+}
+
+.job_alerts_titleblock h2 {
+  color: var(--white);
+  padding: 5vh 6vh;
+}
+
+.create_new_alert {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1vh;
+}
+
+.create_new_alert_button {
+  border-radius: 20px;
+  border: none;
+  box-shadow: 3px 3px rgb(147, 169, 235, 0.5);
+  padding: 0.5rem;
+  width: 15vw;
+  background-color: var(--white);
+  color: var(--purple-dark);
+  cursor: pointer;
+  margin-bottom: 2vh;
+}
+
+.job_alerts_button {
+  border-radius: 20px;
+  border: none;
+  box-shadow: 3px 3px rgb(147, 169, 235, 0.5);
+  padding: 0.5rem;
+  width: 15vw;
+  background-color: var(--white);
+  color: var(--purple-dark);
+  cursor: pointer;
+  margin-bottom: 2vh;
+}
+
+.create_new_alert_button:hover {
+  box-shadow: 4px 4px 2px 1px #ff8150;
+  transform: scale(1.1);
+}
+
+.job_alerts_button:hover {
+  box-shadow: 4px 4px 2px 1px #ff8150;
+  transform: scale(1.1);
+}
+
+.my_applications_body {
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.my_applications_offers_body {
+  padding: 4vh 2vw 2vh 2vw;
+  margin-bottom: 5vh;
+  background-color: var(--white);
+  border-radius: 0 0 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 3px 3px rgba(184, 197, 235, 0.5);
+}
+
+.my_applications_titleblock {
+  color: var(--white);
+  background-color: var(--purple-light);
+  box-shadow: 3px 3px rgba(184, 197, 235, 0.5);
+  height: 12vh;
+  border-radius: 50px 50px 0 0;
+}
+
+.my_applications_titleblock h2 {
+  color: var(--white);
+  padding: 5vh 6vh;
+}
+
+.my_applications_offers_button {
+  border-radius: 20px;
+  border: none;
+  box-shadow: 3px 3px rgb(147, 169, 235, 0.5);
+  padding: 0.5rem;
+  width: 15vw;
+  background-color: var(--white);
+  color: var(--purple-dark);
+  cursor: pointer;
+  margin-bottom: 2vh;
+}
+
+.my_applications_offers_button:hover {
+  box-shadow: 4px 4px 2px 1px #ff8150;
+  transform: scale(1.1);
+}
+
+.mydashboard_candidate {
+  margin-top: 2vh;
+  display: flex;
+  align-items: flex-start;
+}

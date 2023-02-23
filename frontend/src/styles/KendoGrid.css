@@ -1,0 +1,55 @@
+.grid {
+  width: 65vw;
+}
+
+.grid,
+.grid .k-table-thead,
+.k-table-header,
+.k-table-group-sticky-header,
+.grid .k-button-flat-primary {
+  color: var(--purple-light) !important;
+}
+
+.grid .k-column-title {
+  white-space: break-spaces;
+  height: 36px;
+}
+
+.grid .k-table-thead,
+.k-table-header,
+.k-table-group-sticky-header {
+  background-color: var(--white);
+}
+
+.grid .k-grid-header,
+.k-grid-header-wrap,
+.k-grouping-header,
+.k-grid .k-table-th,
+.k-grid td,
+.k-grid .k-table-td,
+.k-grid-footer,
+.k-grid-footer-wrap,
+.k-grid-content-locked,
+.k-grid-footer-locked,
+.k-grid-header-locked,
+.k-filter-row > .k-table-th,
+.k-filter-row > td,
+.k-filter-row > .k-table-td {
+  border: unset;
+}
+
+.grid span.red {
+  color: var(--red);
+}
+
+.grid span.green {
+  color: var(--green);
+}
+
+.grid span.orange {
+  color: var(--orange);
+}
+
+.filtre_candidature p {
+  padding: 1vh;
+}

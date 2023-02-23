@@ -1,0 +1,42 @@
+.filters_offers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.offers_body {
+  padding: 4vh 2vw 2vh 2vw;
+  background-color: var(--white);
+  border-radius: 0 0 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 3px 3px rgba(184, 197, 235, 0.5);
+}
+
+.all_offers_titleblock {
+  color: var(--white);
+  background-color: var(--purple-light);
+  height: 12vh;
+  border-radius: 50px 50px 0 0;
+}
+
+.all_offers_titleblock h2 {
+  color: var(--white);
+  padding: 5vh 4vh;
+
+  margin-top: 1.3vh;
+  border-radius: 40px 40px 0 0;
+}
+
+.all_offers_button {
+  border-radius: 20px;
+  border: none;
+  box-shadow: 3px 3px rgb(147, 169, 235, 0.5);
+  padding: 0.5rem;
+  width: 15vw;
+  background-color: var(--white);
+  color: var(--grey);
+  cursor: pointer;
+  margin-bottom: 2vh;
+}

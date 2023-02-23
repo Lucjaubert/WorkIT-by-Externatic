@@ -1,0 +1,108 @@
+.consultant_chat_box_container {
+  margin: 10vh 10vh 10vh 0;
+  width: 76vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.consultant_chat_titleblock {
+  color: var(--white);
+  background-color: var(--purple-light);
+  box-shadow: 3px 3px rgba(184, 197, 235, 0.5);
+  height: 12vh;
+  border-radius: 50px 50px 0 0;
+}
+
+.consultant_chat_main {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  box-shadow: 3px 3px rgba(184, 197, 235, 0.5);
+  border-radius: 0 0 20px 20px;
+}
+
+.consultant_chat_body {
+  padding: 4vh 2vw 2vh 2vw;
+  background-color: #fffdfe;
+  height: auto;
+  border-radius: 0 0 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.consultant_chat_titleblock {
+  color: var(--white);
+  background-color: var(--purple-light);
+  box-shadow: 3px 3px rgba(184, 197, 235, 0.5);
+  height: 12vh;
+  border-radius: 50px 50px 0 0;
+}
+
+.consultant_chat_titleblock h2 {
+  color: var(--white);
+  padding: 5vh 6vh;
+}
+
+.consultant__chat__bar {
+  background-color: #ffffff;
+  width: 20vw;
+  height: 75vh;
+  border-radius: 0 0 0 30px;
+}
+
+.consultant_chat__header {
+  padding-top: 3vh;
+  text-align: center;
+  color: var(--purple-dark);
+}
+
+.consultant_chat__users > * {
+  display: flex;
+  margin-bottom: 10px;
+  color: #607eaa;
+  font-size: 2.5vh;
+  border: 1px solid var(--purple-dark);
+  border-radius: 10px;
+}
+.consultant_chat__user img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin: 20px;
+  border: 1px solid var(--purple-dark);
+}
+
+.consultant_p__chat__bar {
+  align-items: center;
+  display: flex;
+  color: #0c3944;
+  font-size: 1.1rem;
+  margin-right: 1rem;
+}
+
+.consultant_p__chat__bar p {
+  color: #0c3944;
+}
+
+.chat_users {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  height: 49vh;
+  width: 18 vw;
+  margin-top: 2vh;
+  margin-left: 1.5vw;
+}
+
+.chat_users p {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+
+  margin-left: 1.5vw;
+}

@@ -1,0 +1,156 @@
+.container_enterprise_body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10vh;
+}
+
+.enterprise-box {
+  width: 86.5vw;
+}
+
+.modal {
+  height: 208vh;
+  overflow: hidden;
+}
+
+.enterprise-details {
+  display: flex;
+  flex-direction: row;
+  padding: 5vh 7vh;
+  border-radius: 50px 50px 0 0;
+  color: var(--white);
+  background: var(--purple-light);
+  box-shadow: 3px 3px rgba(184, 197, 235, 0.5);
+  align-items: center;
+}
+
+.enterprise-details-admin {
+  display: flex;
+  flex-direction: row;
+  padding: 5vh 7vh;
+  border-radius: 50px 50px 0 0;
+  color: var(--white);
+  background: var(--bleu);
+  box-shadow: 3px 3px rgba(184, 197, 235, 0.5);
+  align-items: center;
+}
+
+.form-box-enterprise {
+  margin: 0 3vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+}
+.search-input-enterprise {
+  width: 26vw;
+  border-radius: 15px;
+  border: 1px solid var(--purple-light);
+  padding: 1vh 0.5vw;
+  color: var(--purple-dark);
+  border: 2px solid #ccc;
+  box-shadow: 0 0 2px 2px var(--purple-dark);
+}
+.logo-search-enterprises {
+  position: absolute;
+  right: 1vw;
+  margin-left: 1vw;
+  height: 4vh;
+}
+.button_create_firm {
+  margin-left: 3vw;
+  width: 15vw;
+  height: 5vh;
+  cursor: pointer;
+  background-color: var(--orange);
+  color: var(--white);
+  border-radius: 18px;
+  border: none;
+  box-shadow: 3px 3px rgba(240, 239, 239, 0.5);
+}
+
+.dashboard_enterprises {
+  padding: 5vh 5vw;
+  background-color: var(--white);
+  border-radius: 0 0 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 3px 3px rgba(184, 197, 235, 0.5);
+}
+
+.dashboard_enterprises .text_cross {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5vw;
+  margin-left: 4vw;
+  align-items: center;
+  color: #93a9eb;
+}
+
+.enterprise-box .btn_create_firmform {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 14vw;
+  height: 5vh;
+  cursor: pointer;
+  background-color: var(--orange);
+  color: var(--white);
+  border-radius: 20px;
+  border: none;
+  margin-top: 1vh;
+  box-shadow: 3px 3px rgba(184, 197, 235, 0.5);
+}
+
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* KENDO GRID */
+
+.grid_enterprise,
+.grid_enterprise .k-table-thead,
+.k-table-header,
+.k-table-group-sticky-header,
+.grid_enterprise .k-button-flat-primary {
+  color: var(--purple-light) !important;
+}
+
+.grid_enterprise .k-column-title {
+  white-space: break-spaces;
+  height: 35px;
+
+  font-weight: 600;
+}
+
+.grid_enterprise .k-table-thead,
+.k-table-header,
+.k-table-group-sticky-header {
+  background-color: var(--white);
+}
+
+.grid_enterprise .k-grid-header,
+.k-grid-header-wrap,
+.k-grouping-header,
+.k-grid .k-table-th,
+.k-grid td,
+.k-grid .k-table-td,
+.k-grid-footer,
+.k-grid-footer-wrap,
+.k-grid-content-locked,
+.k-grid-footer-locked,
+.k-grid-header-locked,
+.k-filter-row > .k-table-th,
+.k-filter-row > td,
+.k-filter-row > .k-table-td {
+  border: unset;
+}

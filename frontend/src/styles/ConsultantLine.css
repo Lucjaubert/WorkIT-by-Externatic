@@ -1,0 +1,66 @@
+.consultantline_body {
+  display: flex;
+  flex-direction: row;
+  color: var(--purple-dark);
+  height: 10vh;
+}
+
+.consultantline_body:hover {
+  background-color: rgba(248, 248, 248, 0.979);
+}
+
+.consultant_avatar {
+  height: 6vh;
+  margin: 1vh 1vw;
+  border-radius: 50%;
+}
+
+.personal_information_consultant {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+}
+
+.consultant_name {
+  margin: 1vh 1vw;
+}
+
+.consultant_contact_information {
+  margin: 1vh 1vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.consultant_phone_number {
+  margin-right: 2vw;
+}
+
+.modify_delete_buttons button {
+  background: var(--white);
+  color: var(--purple-dark);
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6vw;
+  height: 3vh;
+  -webkit-box-shadow: -2px 3px 4px 0px rgb(184 197 235);
+  box-shadow: -2px 3px 4px 0px rgb(184 197 235);
+  border: unset;
+  cursor: pointer;
+  margin-left: 2vw;
+  margin-top: 1vh;
+}
+
+.modify_delete_buttons button:hover {
+  background: var(--orange);
+  color: var(--white);
+}
+
+.button_consultant_delete {
+  color: var(--red);
+}
+
+.button_consultant_delete:hover {
+  color: var(--white);
+}

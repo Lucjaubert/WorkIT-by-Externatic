@@ -1,0 +1,89 @@
+.candidature-filter .title-box {
+  background-color: var(--purple-light);
+  height: 8vh;
+  border-radius: 50px 50px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 3px 3px rgba(184, 197, 235, 0.5);
+}
+
+.candidature-filter .title {
+  color: var(--white);
+  font-family: var(--text-font-family-jost);
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
+.candidature-filter .filter-body {
+  background-color: var(--white);
+  height: auto;
+  padding: 1.5vw;
+  width: 18vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 0px 50px 50px;
+  box-shadow: 3px 3px rgba(184, 197, 235, 0.5);
+  color: var(--purple-dark);
+}
+
+.candidature-filter .radio-button-container {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.candidature-filter .radio-button-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.candidature-filter .radio-button-container .checkmark {
+  position: absolute;
+  top: 0;
+  left: 6px;
+  height: 14px;
+  width: 14px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.candidature-filter .radio-button-container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.candidature-filter .radio-button-container input:checked ~ .checkmark {
+  background-color: var(--purple-light);
+}
+
+.candidature-filter .radio-button-container .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.candidature-filter .radio-button-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.candidature-filter .radio-button-container p {
+  margin-top: 3px;
+}
+
+.candidature-filter .filter-body {
+  display: block;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4px;
+  padding: 18px;
+}

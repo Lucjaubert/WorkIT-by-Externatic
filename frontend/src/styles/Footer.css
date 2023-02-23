@@ -1,0 +1,93 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 40vh;
+  background-color: var(--bleu);
+  bottom: 0;
+  color: var(--white);
+  margin-top: 5vh;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 5vw;
+  margin-top: 4vh;
+}
+
+.footer-content > div:nth-child(1),
+.footer-content > div:nth-child(2) {
+  width: 20vw;
+}
+
+.footer-content > div:nth-child(3) {
+  width: 15vw;
+}
+
+.footer-content div:nth-child(4) {
+  width: 12vw;
+}
+
+.footer-content > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4vh;
+}
+
+.footer h3,
+.footer a {
+  color: var(--white);
+  padding-top: 5vh;
+}
+
+.footer ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding-left: 1vw;
+  gap: 0.6vh;
+}
+
+.footer ul li:before {
+  content: "·";
+
+  margin-right: 0.8vw;
+}
+
+.footer ul li a {
+  text-decoration: underline;
+  text-decoration: none;
+  list-style: none;
+}
+
+.copyright-icon {
+  height: 3vh;
+  color: var(--white);
+}
+
+.footer-content p {
+  line-height: 1.6;
+}
+
+.footer-content .social-network-logo img {
+}
+
+.footer .social-network img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 6vh;
+}
+
+.footer .social-network-content {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5vw;
+}

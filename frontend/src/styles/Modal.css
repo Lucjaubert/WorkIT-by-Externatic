@@ -1,0 +1,149 @@
+.modalBox {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: O;
+  bottom: 0;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modalContent {
+  position: relative;
+  top: 0.5vw;
+  bottom: 2vw;
+  left: 0.1vw;
+  right: 2vw;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60vw;
+  height: 85%;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2vw;
+  padding-bottom: 0;
+  animation: 1s rotateOnOpen;
+  border-radius: 20px;
+}
+
+@keyframes rotateOnOpen {
+  0% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+.modal-header {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1vw;
+  margin-bottom: 2vw;
+}
+
+.header-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 1.5vw;
+}
+
+.offer_detail_image {
+  height: 6vh;
+}
+
+.offer_close_button {
+  height: 6vh;
+  cursor: pointer;
+  padding: 0.5vw;
+  border-radius: 30%;
+}
+
+.offer_header_block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.offer_favourite_button {
+  height: 6vh;
+  cursor: pointer;
+  padding: 0.5vw;
+}
+.offer_favourite_button:hover {
+  transform: scale(1.5);
+}
+
+.modal-body {
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0vh 2vw;
+}
+
+.modal-body::-webkit-scrollbar {
+  display: none;
+}
+
+.modal-footer {
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1vw;
+  padding-bottom: 2vh;
+  margin-bottom: 2vh;
+}
+
+.modal-footer button {
+  border-radius: 20px;
+  border: none;
+  box-shadow: 3px 3px rgb(147 169 235 / 50%);
+  padding: 0.5rem;
+  width: 15vw;
+  background-color: var(--purple-light);
+  color: var(--white);
+  cursor: pointer;
+  margin-right: 2vw;
+}
+.modal-footer button:hover {
+  box-shadow: 4px 4px 2px 1px var(--orange);
+  transform: scale(1.1);
+}
+.modal-title {
+  margin-bottom: 1vw;
+  color: var(--purple-dark);
+}
+
+.modal-subtitle {
+  font-weight: bold;
+  color: var(--purple-light);
+  margin: 3vh 2vw 1vh 0;
+}
+.modal-text {
+  text-align: justify;
+}
+.modal-text-uppercase {
+  text-align: justify;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.send-candidature {
+  color: red;
+}
+.send-signIn {
+  color: red;
+  cursor: pointer;
+  margin-bottom: 2vh;
+}
+.alert_seen_button {
+  margin-top: 2vh;
+}

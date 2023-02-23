@@ -1,0 +1,56 @@
+.publication_date_box {
+  width: 17vw;
+}
+
+.date_titleblock {
+  background-color: var(--purple-light);
+  height: 10vh;
+  width: 17vw;
+  border-radius: 50px 50px 0 0;
+  margin-left: 3vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.date_titleblock-admin {
+  background-color: var(--bleu);
+  height: 10vh;
+  border-radius: 50px 50px 0 0;
+  display: flex;
+  margin-left: 3vw;
+  width: 17vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.date_title {
+  color: var(--white);
+  font-weight: lighter;
+}
+
+.date_body {
+  background-color: var(--white);
+  margin-left: 3vw;
+  height: auto;
+  padding: 1.5vw;
+  width: 17vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 0px 20px 20px;
+  box-shadow: 3px 3px rgba(184, 197, 235, 0.5);
+  color: var(--purple-dark);
+}
+
+.input_date {
+  margin-top: 1.8vh;
+}
+
+.title-box .title {
+  color: var(--white);
+  font-weight: lighter;
+  font-size: 1.5em;
+}
